@@ -12,7 +12,7 @@ g = Github("//TOKEN//")
 
 file = "README.MD"
 
-username = "0x1-omnidev"
+username = "MatrixByt3s"
 
 repo = g.get_repo(f"{username}/{username}")
 contents = repo.get_contents(file)
